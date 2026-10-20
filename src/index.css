@@ -1169,6 +1169,8 @@ button {
     overflow-x: auto;
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
+    /* bleed into the .container side padding to span the full viewport */
+    width: calc(100% + 32px);
     margin: 0 -16px;
     padding: 2px 16px 6px;
   }
